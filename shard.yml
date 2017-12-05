@@ -1,0 +1,18 @@
+name: mapping-front-end
+version: 0.1.0
+
+authors:
+  - Gaurav Vattikuti <grvv04@gmail.com>
+
+targets:
+  mapping-front-end:
+    main: src/mapping-front-end.cr
+
+crystal: 0.22.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
+license: MIT
